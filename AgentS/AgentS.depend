@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1455130153 source:/home/ali/Study/AI/AgentS/main.cpp
+	"include//agentS.h"
+	"include//action.h"
+	"include//state.h"
+	"include//problemNode.h"
+	"include//AgentBFS.h"
+	"include//agentDFS.h"
+	"include//agentUCS.h"
+	"include//agentBestFirst.h"
+	"include//agentAStar.h"
+	"include//agentDepthLimitedDFS.h"
+	"include//agentIterativeDeepning.h"
+	"include//eightPuzzle.h"
+	<iostream>
+	<string>
+	<stdlib.h>
+	<stdio.h>
+
+1454656086 /home/ali/Study/AI/AgentS/include//agentS.h
+	"problemNode.h"
+	"action.h"
+
+1454673670 /home/ali/Study/AI/AgentS/include//problemNode.h
+	<string>
+	"state.h"
+	"action.h"
+
+1454741278 /home/ali/Study/AI/AgentS/include//state.h
+	"action.h"
+
+1454650714 /home/ali/Study/AI/AgentS/include//action.h
+	<string>
+	"state.h"
+
+1454693423 /home/ali/Study/AI/AgentS/include//AgentBFS.h
+	"agentS.h"
+
+1455111750 /home/ali/Study/AI/AgentS/include//agentDFS.h
+	"..//include//agentS.h"
+
+1455111777 /home/ali/Study/AI/AgentS/include//agentUCS.h
+	"..//include//agentS.h"
+
+1455111787 /home/ali/Study/AI/AgentS/include//agentBestFirst.h
+	"..//include//agentS.h"
+
+1455111795 /home/ali/Study/AI/AgentS/include//agentAStar.h
+	"..//include//agentS.h"
+
+1455111805 /home/ali/Study/AI/AgentS/include//agentDepthLimitedDFS.h
+	"..//include//agentS.h"
+
+1455111812 /home/ali/Study/AI/AgentS/include//agentIterativeDeepning.h
+	"..//include//agentS.h"
+
+1455130265 /home/ali/Study/AI/AgentS/include//eightPuzzle.h
+	"..//include//problemNode.h"
+	"..//include//action.h"
+
+1454673686 source:/home/ali/Study/AI/AgentS/problemNode.cpp
+	"include//problemNode.h"
+
+1455130181 source:/home/ali/Study/AI/AgentS/src/agentAStar.cpp
+	<iostream>
+	"..//include//agentAStar.h"
+
+1455111795 /home/ali/Study/AI/AgentS//include//agentAStar.h
+	"..//include//agentS.h"
+
+1455130190 source:/home/ali/Study/AI/AgentS/src/agentBestFirst.cpp
+	<iostream>
+	"..//include//agentBestFirst.h"
+
+1455111787 /home/ali/Study/AI/AgentS//include//agentBestFirst.h
+	"..//include//agentS.h"
+
+1455130200 source:/home/ali/Study/AI/AgentS/src/AgentBFS.cpp
+	<iostream>
+	"..//include//AgentBFS.h"
+
+1454693423 /home/ali/Study/AI/AgentS//include//AgentBFS.h
+	"agentS.h"
+
+1454656086 /home/ali/Study/AI/AgentS//include//agentS.h
+	"problemNode.h"
+	"action.h"
+
+1454673670 /home/ali/Study/AI/AgentS//include//problemNode.h
+	<string>
+	"state.h"
+	"action.h"
+
+1454741278 /home/ali/Study/AI/AgentS//include//state.h
+	"action.h"
+
+1454650714 /home/ali/Study/AI/AgentS//include//action.h
+	<string>
+	"state.h"
+
+1455130208 source:/home/ali/Study/AI/AgentS/src/agentDepthLimitedDFS.cpp
+	<iostream>
+	"..//include//agentDepthLimitedDFS.h"
+
+1455111805 /home/ali/Study/AI/AgentS//include//agentDepthLimitedDFS.h
+	"..//include//agentS.h"
+
+1455130217 source:/home/ali/Study/AI/AgentS/src/agentDFS.cpp
+	<iostream>
+	"..//include//agentDFS.h"
+
+1455111750 /home/ali/Study/AI/AgentS//include//agentDFS.h
+	"..//include//agentS.h"
+
+1455130224 source:/home/ali/Study/AI/AgentS/src/agentIterativeDeepning.cpp
+	<iostream>
+	"..//include//agentIterativeDeepning.h"
+
+1455111812 /home/ali/Study/AI/AgentS//include//agentIterativeDeepning.h
+	"..//include//agentS.h"
+
+1455130233 source:/home/ali/Study/AI/AgentS/src/agentUCS.cpp
+	<iostream>
+	"..//include//agentUCS.h"
+
+1455111777 /home/ali/Study/AI/AgentS//include//agentUCS.h
+	"..//include//agentS.h"
+

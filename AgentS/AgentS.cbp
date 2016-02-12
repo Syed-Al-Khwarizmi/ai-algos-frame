@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AgentS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AgentS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AgentS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/AgentBFS.h" />
+		<Unit filename="include/action.h" />
+		<Unit filename="include/agentAStar.h" />
+		<Unit filename="include/agentBestFirst.h" />
+		<Unit filename="include/agentDFS.h" />
+		<Unit filename="include/agentDepthLimitedDFS.h" />
+		<Unit filename="include/agentIterativeDeepning.h" />
+		<Unit filename="include/agentS.h" />
+		<Unit filename="include/agentUCS.h" />
+		<Unit filename="include/eightPuzzle.h" />
+		<Unit filename="include/problemNode.h" />
+		<Unit filename="include/state.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="problemNode.cpp" />
+		<Unit filename="src/AgentBFS.cpp" />
+		<Unit filename="src/agentAStar.cpp" />
+		<Unit filename="src/agentBestFirst.cpp" />
+		<Unit filename="src/agentDFS.cpp" />
+		<Unit filename="src/agentDepthLimitedDFS.cpp" />
+		<Unit filename="src/agentIterativeDeepning.cpp" />
+		<Unit filename="src/agentUCS.cpp" />
+		<Unit filename="src/eightPuzzle.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
